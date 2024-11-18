@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;#070b22
+}
+body{
+    background-color: #101014;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    background-color: #141418;
+    color: #fff;
+    height: 100vh;
+}
+
+.degrade-text {
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #1D818C, #ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #0e1330;
+    box-shadow: 0 0 20px 10px rgb(0, 0, 0);
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.iconGreen {
+    color: #070b22;
+    background-color: #ffffff ;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.pR4{
+    color: #ffffff;
+}
+
+.pR4 :hover{
+    color: #29CF6D;
+}
+
+/* .............................................................. */
+
+.banner1{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 80vh;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 20,20, 0.9)),
+    url(/Assets/Imagens/Banner1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerOneLink{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: #1D818C;
+}
+
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.itens a {
+    text-decoration: none;
+    color: #ececec;
+}
+.SiteItem {
+    padding-left: 15px;
+    list-style: none;
+    font-size: 18px;
+}
+.SiteItem :hover {
+    color:#1D818C;
+}
+
+.pR4{
+    padding-right: 5px;
+}
+
+.outline{
+    border: 2px solid #fff;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+footer {
+    background-color: #0e1330;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 50px;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #29CF6D;
+}
