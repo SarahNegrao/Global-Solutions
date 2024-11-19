@@ -18,70 +18,75 @@
 <body>
     <!-- início header -->
 
-    <header class="header">
+    <header class="container-fluid bg-dark text-white d-flex justify-content-between align-items-center p-3">
         <div class="logo">
-            <a href="#"><img src="./Assets/Imagens/aaa.svg" alt=""></a>
+            <a href="#"><img src="./Assets/Imagens/aaa.svg" class="img-fluid" alt="logo"></a>
         </div>
-        <nav class="container-nav">
-            <ul class="container-ul">
-                <li><a href="#" class="link ativo">Menu</a></li>
-                <li><a href="#" class="link">Contato</a></li>
-                <li><a href="#" class="link">Procurar</a></li>
+        <nav class="menu d-block">
+            <ul class="d-flex list-unstyled gap-3">
+                <li><a href="#" class="text-white text-decoration-none">Menu</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Contato</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Procurar</a></li>
             </ul>
         </nav>
-
     </header>
     <!-- fim header -->
 
     <!-- início Main -->
     <main class="container-main" id="topo">
         <!-- navbar secundária -->
-        <section class="bannerOne">
-            <div class="banner1">
-                <h1>Fique Conectado ao Futuro da Energia!</h1>
-                <div class="containerBannerOne" alt="Imagem embassada de uma fabrica contendo plantas envolta">
-                    <h2>Inscreva-se e receba nossa Newsletter</h2>
-                    <form>
-                        <input type="text" placeholder="Nome">
-                        <input type="text" placeholder="E-mail">
+        <section class="bannerOne "> 
+            <div class="container-fluid text-center text-white py-2">
+                <h1 class="display-4">Fique Conectado ao Futuro da Energia!</h1>
+                <div class="mt-5">
+                    <h2 class="display-4">Inscreva-se e receba nossa Newsletter</h2>
+                    <form class="d-flex flex-column mt-5">
+                        <div class=" mb-2 w-100" style="max-width: 600px;">
+                            <input type="text" class="form-control" placeholder="Nome">
+                        </div>
+                        <div class=" mb-4 w-100" style="max-width: 600px;">
+                            <input type="email" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="w-100" style="max-width: 300px;">
+                            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                        </div>
                     </form>
-                    <button class="bannerOneLink">Entrar</button>
                 </div>
             </div>
         </section>
 
         </div>
 
-            <div class="secondNavBar">
-                <div class="icones">
-                    <img src="./Assets/Imagens/hidrogenio.png" alt="">
-                    <div class="descricao">
-                        <h2>Elemento mais abundante do universo</h2>
-                    </div>
-                </div>
-
-                <div class="linha">
-                    <img src="./Assets/Imagens/linha amarela.jpg" alt="">
-                </div>
-
-                <div class="icones">
-                    <img src="./Assets/Imagens/thumbs.png" alt="">
-                    <div class="descricao">
-                        <h2>Produz apenas água como subproduto</h2>
-                    </div>
-                </div>
-
-                <div class="linha">
-                    <img src="./Assets/Imagens/linha amarela.jpg" alt="">
-                </div>
-                <div class="icones">
-                    <img src="./Assets/Imagens/foguete (1).png" alt="">
-                    <div class="descricao">
-                        <h2>Pode ser usado para transporte, indústrias e energia elétrica</h2>
-                    </div>
-                    
+        <div class="secondNavBar d-flex flex-wrap justify-content-center align-items-center">
+            <div class="icones text-center m-3">
+                <img src="./Assets/Imagens/hidrogenio.png" alt="" class="img-fluid">
+                <div class="descricao mt-2">
+                    <h2 class="h6">Elemento mais abundante do universo</h2>
                 </div>
             </div>
+        
+            <div class="linha d-none d-md-block">
+                <img src="./Assets/Imagens/linha amarela.jpg" alt="" class="img-fluid">
+            </div>
+        
+            <div class="icones text-center m-3">
+                <img src="./Assets/Imagens/thumbs.png" alt="" class="img-fluid">
+                <div class="descricao mt-2">
+                    <h2 class="h6">Produz apenas água como subproduto</h2>
+                </div>
+            </div>
+        
+            <div class="linha d-none d-md-block">
+                <img src="./Assets/Imagens/linha amarela.jpg" alt="" class="img-fluid">
+            </div>
+        
+            <div class="icones text-center m-3">
+                <img src="./Assets/Imagens/foguete (1).png" alt="" class="img-fluid">
+                <div class="descricao mt-2">
+                    <h2 class="h6">Pode ser usado para transporte, indústrias e energia elétrica</h2>
+                </div>
+            </div>
+        </div>
 
         </section>
 
@@ -105,42 +110,29 @@
             <h3>Resultados Reais</h3>
             <p>Atualmente, seus principais impactos reais incluem a redução significativa de emissões de CO₂ em indústrias pesadas, como a siderurgia, e a utilização em células de combustível para transporte, oferecendo uma opção de mobilidade sustentável. Além disso, o hidrogênio verde está sendo explorado como solução para armazenamento de energia, permitindo o aproveitamento de excedentes de produção renovável.</p>
     </main>
-    <footer class="rodape">
-        <div class="footer-container">
-            <div class="infos-footer">
-                <div class="sociais">
-                    <img src="./Assets/Imagens/instagram.png" alt="" />
-                    <img src="./Assets/Imagens/facebook.png" alt="">
-                    <img src="./Assets/Imagens/youtube.png" alt="">
-                </div>
-                <div class="recursos">
-                    <h5>Paginas Iniciais</h5>
-                    <div class="links-recursos">
-                        <ul>
-                            <li>O grupo</li>
-                            <li>Nossa energia</li>
-                            <li>Responsabilidade e Sustentabilidade</li>
-                            <li>Contato</li>
-                        </ul>
-                        <ul>
-                            <li>Proposito e Estrategia</li>
-                            <li>Responsabilidade Corporativa</li>
-                            <li>Diversidade</li>
-                            <li>Hidrogenio</li>
-                            <li>Relatorio Anual 2023</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="logo-footer">
-                <img src="./Assets/Imagens/aaa.svg" alt="" />
-                </div>
+    <footer class="container-fluid bg-dark text-white py-4">
+    <div class="row">
+        <div class="iconesfinal col-12 col-md-4 mb-3">
+            <div class="d-flex justify-content-start gap-3">
+                <a href="#"><img src="./Assets/Imagens/instagram.png" alt="Instagram" class="img-fluid"></a>
+                <a href="#"><img src="./Assets/Imagens/facebook.png" alt="Facebook" class="img-fluid"></a>
+                <a href="#"><img src="./Assets/Imagens/youtube.png" alt="YouTube" class="img-fluid"></a>
             </div>
-            <a href="#topo" class="btn-topo">
-                <img src="./Assets/Imagens/seta.svg" alt="imagem de uma seta" />
-            </a>
         </div>
-    </footer>
-
+        <div class="paginas col-12 col-md-4 mb-3">
+            <h5>Páginas Iniciais</h5>
+            <ul class="list-unstyled">
+                <li>O grupo</li>
+                <li>Nossa energia</li>
+                <li>Responsabilidade e Sustentabilidade</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+        <div class="logofinal col-13 col-md-3">
+            <a href="#"><img src="./Assets/Imagens/aaa.svg" class="img-fluid" alt="Logo"></a>
+        </div>
+    </div>
+</footer>
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
