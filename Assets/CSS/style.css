@@ -111,6 +111,12 @@ html {
     height: 5px;
 }
 
+.backgroundcolor{
+    background-color: #101014;
+    color: #fff;
+    padding:5%;
+}
+
 .paginas{
     margin-left: 8%;
     
